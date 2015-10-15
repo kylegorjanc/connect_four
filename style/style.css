@@ -1,0 +1,42 @@
+body {
+	background-color: #ffccff;
+}
+
+.header {
+	float: left;
+	width: 200px;
+	margin: 0, auto;
+	color: #cc0099;
+}
+
+.board {
+  background-image: url('../images/clouds.png');
+
+  margin: 50px auto;
+  border: 1px solid black;
+  position: relative;
+  box-sizing: border-box;
+}
+
+container {
+  width: 780px;
+  height: 602px;
+  float: center;
+}
+
+.column {
+	float: left;
+	width: 110px;
+	height: 600px;
+	margin: auto;
+	display:block;
+	border: 1px solid black;
+}
+
+.cell {
+  width: 111px;
+  height: 100px;
+  margin: auto;
+  display: block;
+  box-sizing: border-box;
+}
