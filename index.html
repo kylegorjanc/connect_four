@@ -3,74 +3,79 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="style/style.css"></link>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
-	<script src="script/app.js"></script>
-	<meta charset="UTF-8">
+<!--	<script src="script/cell.js"></script>
+		<script src="script/column.js"></script>
+			<script src="script/board.js"></script>
+				<script src="script/game.js"></script> -->
+					<script src="script/app.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Fontdiner+Swanky' rel='stylesheet' type='text/css'>	<meta charset="UTF-8">
 
 	<title>Connect Four</title>
 </head>
 <body>
 	<div class="header">
-		<h1 id ='game-title'>Connect Four!</h1>
+		<img src='images/mlp_logo.png'>
+		<h1 id ='game-title'>Connect 4!</h1>
 		<p id = 'instructions'>Put your pony in the clouds. Get four in a row and you win!</p>
 	</div>
 	<div class="board">
-		<container>
-		<div class="column">
-			<div class="cell" id="01"></div>
-			<div class="cell" id="02"></div>
-			<div class="cell" id="03"></div>
-			<div class="cell" id="04"></div>
-			<div class="cell" id="05"></div>
-			<div class="cell" id="06"></div>
+		<div class="container" id="game">
+		<div class="column" id = '0'>
+			<div class="cell" id="0"></div>
+			<div class="cell" id="1"></div>
+			<div class="cell" id="2"></div>
+			<div class="cell" id="3"></div>
+			<div class="cell" id="4"></div>
+			<div class="cell" id="5"></div>
 		</div>
-		<div class="column">
-			<div class="cell" id="11"></div>
-			<div class="cell" id="12"></div>
-			<div class="cell" id="13"></div>
-			<div class="cell" id="14"></div>
-			<div class="cell" id="15"></div>
-			<div class="cell" id="16"></div>
+		<div class="column" id = '1'>
+			<div class="cell" id="0"></div>
+			<div class="cell" id="1"></div>
+			<div class="cell" id="2"></div>
+			<div class="cell" id="3"></div>
+			<div class="cell" id="4"></div>
+			<div class="cell" id="5"></div>
 		</div>
-		<div class="column">
-			<div class="cell" id="21"></div>
-			<div class="cell" id="22"></div>
-			<div class="cell" id="23"></div>
-			<div class="cell" id="24"></div>
-			<div class="cell" id="25"></div>
-			<div class="cell" id="26"></div>
+		<div class="column" id = '2'>
+			<div class="cell" id="0"></div>
+			<div class="cell" id="1"></div>
+			<div class="cell" id="2"></div>
+			<div class="cell" id="3"></div>
+			<div class="cell" id="4"></div>
+			<div class="cell" id="5"></div>
 		</div>
-		<div class="column">
-			<div class="cell" id="31"></div>
-			<div class="cell" id="32"></div>
-			<div class="cell" id="33"></div>
-			<div class="cell" id="34"></div>
-			<div class="cell" id="35"></div>
-			<div class="cell" id="36"></div>
+		<div class="column" id = '3'>
+			<div class="cell" id="0"></div>
+			<div class="cell" id="1"></div>
+			<div class="cell" id="2"></div>
+			<div class="cell" id="3"></div>
+			<div class="cell" id="4"></div>
+			<div class="cell" id="5"></div>
 		</div>
-		<div class="column">
-			<div class="cell" id="41"></div>
-			<div class="cell" id="42"></div>
-			<div class="cell" id="43"></div>
-			<div class="cell" id="44"></div>
-			<div class="cell" id="45"></div>
-			<div class="cell" id="46"></div>
+		<div class="column" id = '4'>
+			<div class="cell" id="0"></div>
+			<div class="cell" id="1"></div>
+			<div class="cell" id="2"></div>
+			<div class="cell" id="3"></div>
+			<div class="cell" id="4"></div>
+			<div class="cell" id="5"></div>
 		</div>
-		<div class="column">
-			<div class="cell" id="51"></div>
-			<div class="cell" id="52"></div>
-			<div class="cell" id="53"></div>
-			<div class="cell" id="54"></div>
-			<div class="cell" id="55"></div>
-			<div class="cell" id="56"></div>
+		<div class="column" id = '5'>
+			<div class="cell" id="0"></div>
+			<div class="cell" id="1"></div>
+			<div class="cell" id="2"></div>
+			<div class="cell" id="3"></div>
+			<div class="cell" id="4"></div>
+			<div class="cell" id="5"></div>
 		</div>
-		<div class="column">
-			<div class="cell" id="61"></div>
-			<div class="cell" id="62"></div>
-			<div class="cell" id="63"></div>
-			<div class="cell" id="64"></div>
-			<div class="cell" id="65"></div>
-			<div class="cell" id="66"></div>
-		</container>
+		<div class="column" id = '6'>
+			<div class="cell" id="0"></div>
+			<div class="cell" id="1"></div>
+			<div class="cell" id="2"></div>
+			<div class="cell" id="3"></div>
+			<div class="cell" id="4"></div>
+			<div class="cell" id="5"></div>
+		</div>
 	</div>
 <div class="pony" id="pinkie-pie"></div>
 <div class="pony" id="rainbow-dash"></div>
